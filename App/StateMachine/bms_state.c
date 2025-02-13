@@ -20,7 +20,7 @@ void BMS_StateMachine_Init(void) {
  * @brief Handle the INIT state logic.
  */
 static void HandleInitState(void) {
-    // Perform any necessary initialization here (e.g., calibrations, self-tests)
+    // TODO:  Perform necessary initialization here (e.g., calibrations, self-tests)
     // After successful initialization, transition to the IDLE state
     diag_Log(DIAG_LEVEL_INFO, "Handling INIT state: transitioning to IDLE");
     currentState = BMS_STATE_IDLE;

@@ -111,3 +111,7 @@
 2308	2410	7611583350770898	CMakeFiles/BMS_V0.elf.dir/Tasks/task_can_tx.c.obj	535ea0aa79579932
 2345	2432	7611583351009365	CMakeFiles/BMS_V0.elf.dir/Tasks/task_balance.c.obj	976015da8c4f8f5a
 2433	2665	7611583352350264	BMS_V0.elf	d0f8d0beedcbad36
+8	98	7611600994065135	CMakeFiles/BMS_V0.elf.dir/App/Config/bms_config.c.obj	2eb7acc6bbba2a34
+13	116	7611600994262711	CMakeFiles/BMS_V0.elf.dir/App/StateMachine/bms_state.c.obj	e9e712f45dbc6726
+3	168	7611600994794523	CMakeFiles/BMS_V0.elf.dir/App/Diagnostics/diag.c.obj	8986e863c2d07992
+168	441	7611600996644945	BMS_V0.elf	d0f8d0beedcbad36
