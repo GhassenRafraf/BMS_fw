@@ -128,6 +128,22 @@ Discarded input sections
  .comment       0x00000000       0x46 CMakeFiles/BMS_V0.elf.dir/App/Can_comm/can_comm.c.obj
  .ARM.attributes
                 0x00000000       0x34 CMakeFiles/BMS_V0.elf.dir/App/Can_comm/can_comm.c.obj
+ .text          0x00000000        0x0 CMakeFiles/BMS_V0.elf.dir/App/Config/bms_config.c.obj
+ .data          0x00000000        0x0 CMakeFiles/BMS_V0.elf.dir/App/Config/bms_config.c.obj
+ .bss           0x00000000        0x0 CMakeFiles/BMS_V0.elf.dir/App/Config/bms_config.c.obj
+ .debug_line    0x00000000        0x0 CMakeFiles/BMS_V0.elf.dir/App/Config/bms_config.c.obj
+ .debug_str     0x00000000      0x142 CMakeFiles/BMS_V0.elf.dir/App/Config/bms_config.c.obj
+ .comment       0x00000000       0x46 CMakeFiles/BMS_V0.elf.dir/App/Config/bms_config.c.obj
+ .ARM.attributes
+                0x00000000       0x34 CMakeFiles/BMS_V0.elf.dir/App/Config/bms_config.c.obj
+ .text          0x00000000        0x0 CMakeFiles/BMS_V0.elf.dir/App/Diagnostics/diag.c.obj
+ .data          0x00000000        0x0 CMakeFiles/BMS_V0.elf.dir/App/Diagnostics/diag.c.obj
+ .bss           0x00000000        0x0 CMakeFiles/BMS_V0.elf.dir/App/Diagnostics/diag.c.obj
+ .debug_line    0x00000000        0x0 CMakeFiles/BMS_V0.elf.dir/App/Diagnostics/diag.c.obj
+ .debug_str     0x00000000      0x141 CMakeFiles/BMS_V0.elf.dir/App/Diagnostics/diag.c.obj
+ .comment       0x00000000       0x46 CMakeFiles/BMS_V0.elf.dir/App/Diagnostics/diag.c.obj
+ .ARM.attributes
+                0x00000000       0x34 CMakeFiles/BMS_V0.elf.dir/App/Diagnostics/diag.c.obj
  .text          0x00000000        0x0 CMakeFiles/BMS_V0.elf.dir/App/Measurement/batt_measure.c.obj
  .data          0x00000000        0x0 CMakeFiles/BMS_V0.elf.dir/App/Measurement/batt_measure.c.obj
  .bss           0x00000000        0x0 CMakeFiles/BMS_V0.elf.dir/App/Measurement/batt_measure.c.obj
@@ -178,8 +194,12 @@ Discarded input sections
  .text          0x00000000        0x0 CMakeFiles/BMS_V0.elf.dir/App/StateMachine/bms_state.c.obj
  .data          0x00000000        0x0 CMakeFiles/BMS_V0.elf.dir/App/StateMachine/bms_state.c.obj
  .bss           0x00000000        0x0 CMakeFiles/BMS_V0.elf.dir/App/StateMachine/bms_state.c.obj
- .debug_line    0x00000000        0x0 CMakeFiles/BMS_V0.elf.dir/App/StateMachine/bms_state.c.obj
- .debug_str     0x00000000      0x147 CMakeFiles/BMS_V0.elf.dir/App/StateMachine/bms_state.c.obj
+ .debug_info    0x00000000       0x26 CMakeFiles/BMS_V0.elf.dir/App/StateMachine/bms_state.c.obj
+ .debug_abbrev  0x00000000       0x1b CMakeFiles/BMS_V0.elf.dir/App/StateMachine/bms_state.c.obj
+ .debug_aranges
+                0x00000000       0x18 CMakeFiles/BMS_V0.elf.dir/App/StateMachine/bms_state.c.obj
+ .debug_line    0x00000000       0x61 CMakeFiles/BMS_V0.elf.dir/App/StateMachine/bms_state.c.obj
+ .debug_str     0x00000000      0x155 CMakeFiles/BMS_V0.elf.dir/App/StateMachine/bms_state.c.obj
  .comment       0x00000000       0x46 CMakeFiles/BMS_V0.elf.dir/App/StateMachine/bms_state.c.obj
  .ARM.attributes
                 0x00000000       0x34 CMakeFiles/BMS_V0.elf.dir/App/StateMachine/bms_state.c.obj
@@ -2456,6 +2476,8 @@ LOAD c:/progra~2/armgnu~1/125863~1.3re/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb
 LOAD c:/progra~2/armgnu~1/125863~1.3re/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/crt0.o
 LOAD CMakeFiles/BMS_V0.elf.dir/App/Balancing/cell_balance.cpp.obj
 LOAD CMakeFiles/BMS_V0.elf.dir/App/Can_comm/can_comm.c.obj
+LOAD CMakeFiles/BMS_V0.elf.dir/App/Config/bms_config.c.obj
+LOAD CMakeFiles/BMS_V0.elf.dir/App/Diagnostics/diag.c.obj
 LOAD CMakeFiles/BMS_V0.elf.dir/App/Measurement/batt_measure.c.obj
 LOAD CMakeFiles/BMS_V0.elf.dir/App/SOC/soc.c.obj
 LOAD CMakeFiles/BMS_V0.elf.dir/App/SOH/soh.c.obj

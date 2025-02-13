@@ -65,6 +65,8 @@ include_directories(
         App/Balancing
         App/CAN_comm
         App/StateMachine
+        App/Diagnostics
+        App/Config
         Tasks
 )
 
@@ -81,6 +83,8 @@ file(GLOB_RECURSE SOURCES
         "App/Balancing/*.*"
         "App/CAN_comm/*.*"
         "App/StateMachine/*.*"
+        "App/Diagnostics/*.*"
+        "App/Config/*.*"
         "Tasks/*.*"
 )
 set(LINKER_SCRIPT ${CMAKE_SOURCE_DIR}/STM32F401RETX_FLASH.ld)
