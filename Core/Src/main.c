@@ -24,6 +24,9 @@
 /* USER CODE BEGIN Includes */
 #include "task_data_acq.h"
 #include "task_bms_main.h"
+#include "task_can_tx.h"
+#include "task_can_rx.h"
+#include "task_balance.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -110,6 +113,19 @@ const osThreadAttr_t Task_CAN_Rx_attributes = {
   .stack_size = sizeof(Task_CAN_RxBuffer),
   .priority = (osPriority_t) osPriorityHigh,
 };
+
+/* Definitions for Task_Balance */
+osThreadId_t Task_BalanceHandle;
+uint32_t Task_BalanceBuffer[ 128 ];
+osStaticThreadDef_t Task_BalanceControlBlock;
+const osThreadAttr_t Task_Balance_attributes = {
+        .name = "Task_Balance",
+        .cb_mem = &Task_BalanceControlBlock,
+        .cb_size = sizeof(Task_BalanceControlBlock),
+        .stack_mem = &Task_BalanceBuffer[0],
+        .stack_size = sizeof(Task_BalanceBuffer),
+        .priority = (osPriority_t) osPriorityNormal,
+};
 /* USER CODE BEGIN PV */
 
 /* USER CODE END PV */
@@ -182,10 +198,13 @@ int main(void)
   Task_Data_AcquisitionHandle = osThreadNew(Task_Data_Acquisition, NULL, &Task_Data_Acquisition_attributes);
 
   /* creation of Task_CAN_Tx */
-  Task_CAN_TxHandle = osThreadNew(Task_CAN_TxEntry, NULL, &Task_CAN_Tx_attributes);
+  Task_CAN_TxHandle = osThreadNew(Task_CAN_Tx, NULL, &Task_CAN_Tx_attributes);
 
   /* creation of Task_CAN_Rx */
-  Task_CAN_RxHandle = osThreadNew(Task_CAN_RxEntry, NULL, &Task_CAN_Rx_attributes);
+  Task_CAN_RxHandle = osThreadNew(Task_CAN_Rx, NULL, &Task_CAN_Rx_attributes);
+
+  /* creation of Task_Balance */
+  Task_BalanceHandle = osThreadNew(Task_Balance, NULL, &Task_Balance_attributes);
 
   /* USER CODE BEGIN RTOS_EVENTS */
   /* add events, ... */
