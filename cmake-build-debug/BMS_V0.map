@@ -2266,9 +2266,20 @@ Discarded input sections
  .text          0x00000000        0x0 CMakeFiles/BMS_V0.elf.dir/Tasks/task_bms_main.c.obj
  .data          0x00000000        0x0 CMakeFiles/BMS_V0.elf.dir/Tasks/task_bms_main.c.obj
  .bss           0x00000000        0x0 CMakeFiles/BMS_V0.elf.dir/Tasks/task_bms_main.c.obj
- .debug_line    0x00000000        0x0 CMakeFiles/BMS_V0.elf.dir/Tasks/task_bms_main.c.obj
- .debug_str     0x00000000      0x10c CMakeFiles/BMS_V0.elf.dir/Tasks/task_bms_main.c.obj
+ .text.Task_BMS_Main
+                0x00000000       0x12 CMakeFiles/BMS_V0.elf.dir/Tasks/task_bms_main.c.obj
+ .debug_info    0x00000000      0x10e CMakeFiles/BMS_V0.elf.dir/Tasks/task_bms_main.c.obj
+ .debug_abbrev  0x00000000       0xc0 CMakeFiles/BMS_V0.elf.dir/Tasks/task_bms_main.c.obj
+ .debug_loclists
+                0x00000000       0x23 CMakeFiles/BMS_V0.elf.dir/Tasks/task_bms_main.c.obj
+ .debug_aranges
+                0x00000000       0x20 CMakeFiles/BMS_V0.elf.dir/Tasks/task_bms_main.c.obj
+ .debug_rnglists
+                0x00000000       0x13 CMakeFiles/BMS_V0.elf.dir/Tasks/task_bms_main.c.obj
+ .debug_line    0x00000000      0x1d1 CMakeFiles/BMS_V0.elf.dir/Tasks/task_bms_main.c.obj
+ .debug_str     0x00000000      0x210 CMakeFiles/BMS_V0.elf.dir/Tasks/task_bms_main.c.obj
  .comment       0x00000000       0x46 CMakeFiles/BMS_V0.elf.dir/Tasks/task_bms_main.c.obj
+ .debug_frame   0x00000000       0x28 CMakeFiles/BMS_V0.elf.dir/Tasks/task_bms_main.c.obj
  .ARM.attributes
                 0x00000000       0x34 CMakeFiles/BMS_V0.elf.dir/Tasks/task_bms_main.c.obj
  .text          0x00000000        0x0 CMakeFiles/BMS_V0.elf.dir/Tasks/task_can_rx.c.obj
@@ -2290,9 +2301,22 @@ Discarded input sections
  .text          0x00000000        0x0 CMakeFiles/BMS_V0.elf.dir/Tasks/task_data_acq.c.obj
  .data          0x00000000        0x0 CMakeFiles/BMS_V0.elf.dir/Tasks/task_data_acq.c.obj
  .bss           0x00000000        0x0 CMakeFiles/BMS_V0.elf.dir/Tasks/task_data_acq.c.obj
- .debug_line    0x00000000        0x0 CMakeFiles/BMS_V0.elf.dir/Tasks/task_data_acq.c.obj
- .debug_str     0x00000000      0x10c CMakeFiles/BMS_V0.elf.dir/Tasks/task_data_acq.c.obj
+ .rodata.Task_Data_Acquisition.str1.4
+                0x00000000       0x5d CMakeFiles/BMS_V0.elf.dir/Tasks/task_data_acq.c.obj
+ .text.Task_Data_Acquisition
+                0x00000000       0x98 CMakeFiles/BMS_V0.elf.dir/Tasks/task_data_acq.c.obj
+ .debug_info    0x00000000      0x32f CMakeFiles/BMS_V0.elf.dir/Tasks/task_data_acq.c.obj
+ .debug_abbrev  0x00000000      0x18c CMakeFiles/BMS_V0.elf.dir/Tasks/task_data_acq.c.obj
+ .debug_loclists
+                0x00000000       0x68 CMakeFiles/BMS_V0.elf.dir/Tasks/task_data_acq.c.obj
+ .debug_aranges
+                0x00000000       0x20 CMakeFiles/BMS_V0.elf.dir/Tasks/task_data_acq.c.obj
+ .debug_rnglists
+                0x00000000       0x14 CMakeFiles/BMS_V0.elf.dir/Tasks/task_data_acq.c.obj
+ .debug_line    0x00000000      0x300 CMakeFiles/BMS_V0.elf.dir/Tasks/task_data_acq.c.obj
+ .debug_str     0x00000000      0x2db CMakeFiles/BMS_V0.elf.dir/Tasks/task_data_acq.c.obj
  .comment       0x00000000       0x46 CMakeFiles/BMS_V0.elf.dir/Tasks/task_data_acq.c.obj
+ .debug_frame   0x00000000       0x34 CMakeFiles/BMS_V0.elf.dir/Tasks/task_data_acq.c.obj
  .ARM.attributes
                 0x00000000       0x34 CMakeFiles/BMS_V0.elf.dir/Tasks/task_data_acq.c.obj
  .text          0x00000000        0x0 c:/progra~2/armgnu~1/125863~1.3re/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard\libm.a(libm_a-w_log.o)

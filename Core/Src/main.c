@@ -22,7 +22,8 @@
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
-
+#include "task_data_acq.h"
+#include "task_bms_main.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -52,6 +53,9 @@ SPI_HandleTypeDef hspi2;
 
 UART_HandleTypeDef huart2;
 
+/*============================ TASK DEFINITIONS ============================*/
+
+
 /* Definitions for Task_BMS_Main */
 osThreadId_t Task_BMS_MainHandle;
 uint32_t Task_BMS_MainBuffer[ 128 ];
@@ -64,18 +68,22 @@ const osThreadAttr_t Task_BMS_Main_attributes = {
   .stack_size = sizeof(Task_BMS_MainBuffer),
   .priority = (osPriority_t) osPriorityNormal,
 };
+
+
 /* Definitions for Task_Data_Acqui */
-osThreadId_t Task_Data_AcquiHandle;
-uint32_t Task_Data_AcquiBuffer[ 128 ];
-osStaticThreadDef_t Task_Data_AcquiControlBlock;
-const osThreadAttr_t Task_Data_Acqui_attributes = {
-  .name = "Task_Data_Acqui",
-  .cb_mem = &Task_Data_AcquiControlBlock,
-  .cb_size = sizeof(Task_Data_AcquiControlBlock),
-  .stack_mem = &Task_Data_AcquiBuffer[0],
-  .stack_size = sizeof(Task_Data_AcquiBuffer),
+osThreadId_t Task_Data_AcquisitionHandle;
+uint32_t Task_Data_AcquisitionBuffer[ 128 ];
+osStaticThreadDef_t Task_Data_AcquisitionControlBlock;
+const osThreadAttr_t Task_Data_Acquisition_attributes = {
+  .name = "Task_Data_Acquisition",
+  .cb_mem = &Task_Data_AcquisitionControlBlock,
+  .cb_size = sizeof(Task_Data_AcquisitionControlBlock),
+  .stack_mem = &Task_Data_AcquisitionBuffer[0],
+  .stack_size = sizeof(Task_Data_AcquisitionBuffer),
   .priority = (osPriority_t) osPriorityAboveNormal,
 };
+
+
 /* Definitions for Task_CAN_Tx */
 osThreadId_t Task_CAN_TxHandle;
 uint32_t Task_CAN_TxBuffer[ 128 ];
@@ -88,6 +96,8 @@ const osThreadAttr_t Task_CAN_Tx_attributes = {
   .stack_size = sizeof(Task_CAN_TxBuffer),
   .priority = (osPriority_t) osPriorityBelowNormal,
 };
+
+
 /* Definitions for Task_CAN_Rx */
 osThreadId_t Task_CAN_RxHandle;
 uint32_t Task_CAN_RxBuffer[ 128 ];
@@ -165,39 +175,17 @@ int main(void)
 
   /* Init scheduler */
   osKernelInitialize();
-
-  /* USER CODE BEGIN RTOS_MUTEX */
-  /* add mutexes, ... */
-  /* USER CODE END RTOS_MUTEX */
-
-  /* USER CODE BEGIN RTOS_SEMAPHORES */
-  /* add semaphores, ... */
-  /* USER CODE END RTOS_SEMAPHORES */
-
-  /* USER CODE BEGIN RTOS_TIMERS */
-  /* start timers, add new ones, ... */
-  /* USER CODE END RTOS_TIMERS */
-
-  /* USER CODE BEGIN RTOS_QUEUES */
-  /* add queues, ... */
-  /* USER CODE END RTOS_QUEUES */
-
-  /* Create the thread(s) */
   /* creation of Task_BMS_Main */
-  Task_BMS_MainHandle = osThreadNew(Task_BMS_MainEntry, NULL, &Task_BMS_Main_attributes);
+  Task_BMS_MainHandle = osThreadNew(Task_BMS_Main, NULL, &Task_BMS_Main_attributes);
 
   /* creation of Task_Data_Acqui */
-  Task_Data_AcquiHandle = osThreadNew(Task_Data_AcquiEntry, NULL, &Task_Data_Acqui_attributes);
+  Task_Data_AcquisitionHandle = osThreadNew(Task_Data_Acquisition, NULL, &Task_Data_Acquisition_attributes);
 
   /* creation of Task_CAN_Tx */
   Task_CAN_TxHandle = osThreadNew(Task_CAN_TxEntry, NULL, &Task_CAN_Tx_attributes);
 
   /* creation of Task_CAN_Rx */
   Task_CAN_RxHandle = osThreadNew(Task_CAN_RxEntry, NULL, &Task_CAN_Rx_attributes);
-
-  /* USER CODE BEGIN RTOS_THREADS */
-  /* add threads, ... */
-  /* USER CODE END RTOS_THREADS */
 
   /* USER CODE BEGIN RTOS_EVENTS */
   /* add events, ... */
@@ -481,78 +469,6 @@ static void MX_GPIO_Init(void)
 /* USER CODE BEGIN 4 */
 
 /* USER CODE END 4 */
-
-/* USER CODE BEGIN Header_Task_BMS_MainEntry */
-/**
-  * @brief  Function implementing the Task_BMS_Main thread.
-  * @param  argument: Not used
-  * @retval None
-  */
-/* USER CODE END Header_Task_BMS_MainEntry */
-void Task_BMS_MainEntry(void *argument)
-{
-  /* USER CODE BEGIN 5 */
-  /* Infinite loop */
-  for(;;)
-  {
-    osDelay(1);
-  }
-  /* USER CODE END 5 */
-}
-
-/* USER CODE BEGIN Header_Task_Data_AcquiEntry */
-/**
-* @brief Function implementing the Task_Data_Acqui thread.
-* @param argument: Not used
-* @retval None
-*/
-/* USER CODE END Header_Task_Data_AcquiEntry */
-void Task_Data_AcquiEntry(void *argument)
-{
-  /* USER CODE BEGIN Task_Data_AcquiEntry */
-  /* Infinite loop */
-  for(;;)
-  {
-    osDelay(1);
-  }
-  /* USER CODE END Task_Data_AcquiEntry */
-}
-
-/* USER CODE BEGIN Header_Task_CAN_TxEntry */
-/**
-* @brief Function implementing the Task_CAN_Tx thread.
-* @param argument: Not used
-* @retval None
-*/
-/* USER CODE END Header_Task_CAN_TxEntry */
-void Task_CAN_TxEntry(void *argument)
-{
-  /* USER CODE BEGIN Task_CAN_TxEntry */
-  /* Infinite loop */
-  for(;;)
-  {
-    osDelay(1);
-  }
-  /* USER CODE END Task_CAN_TxEntry */
-}
-
-/* USER CODE BEGIN Header_Task_CAN_RxEntry */
-/**
-* @brief Function implementing the Task_CAN_Rx thread.
-* @param argument: Not used
-* @retval None
-*/
-/* USER CODE END Header_Task_CAN_RxEntry */
-void Task_CAN_RxEntry(void *argument)
-{
-  /* USER CODE BEGIN Task_CAN_RxEntry */
-  /* Infinite loop */
-  for(;;)
-  {
-    osDelay(1);
-  }
-  /* USER CODE END Task_CAN_RxEntry */
-}
 
 /**
   * @brief  Period elapsed callback in non blocking mode

@@ -10,8 +10,8 @@ This project is a firmware implementation for a low-voltage Battery Management S
 - **Cell Voltage & Current Measurement**
 - **State of Charge (SOC) Estimation**
 - **State of Health (SOH) Monitoring**
-- **Cell Balancing (Active/Passive)**
-- **CAN Communication**
+- **Cell Balancing (Passive)**
+- **CAN Communication (To be implemented)**
 - **Diagnostics & Logging**
 - **Real-Time Task Scheduling with FreeRTOS**
 

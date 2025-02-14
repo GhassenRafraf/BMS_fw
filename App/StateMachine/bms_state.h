@@ -25,7 +25,7 @@ void BMS_StateMachine_Init(void);
 
 /**
  * @brief Update the BMS state machine.
- * This function should be called periodically (e.g., from a FreeRTOS task).
+ * This function should be called periodically.
  */
 void BMS_StateMachine_Update(void);
 
