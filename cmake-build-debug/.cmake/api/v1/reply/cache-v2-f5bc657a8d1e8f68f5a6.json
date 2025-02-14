@@ -2,42 +2,6 @@
 	"entries" : 
 	[
 		{
-			"name" : "BMS_BINARY_DIR",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Value Computed by CMake"
-				}
-			],
-			"type" : "STATIC",
-			"value" : "C:/Users/crass/CLionProjects/BMS_V0/cmake-build-debug"
-		},
-		{
-			"name" : "BMS_IS_TOP_LEVEL",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Value Computed by CMake"
-				}
-			],
-			"type" : "STATIC",
-			"value" : "ON"
-		},
-		{
-			"name" : "BMS_SOURCE_DIR",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Value Computed by CMake"
-				}
-			],
-			"type" : "STATIC",
-			"value" : "C:/Users/crass/CLionProjects/BMS_V0"
-		},
-		{
 			"name" : "BMS_V0_BINARY_DIR",
 			"properties" : 
 			[
@@ -47,7 +11,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/crass/CLionProjects/BMS_V0/cmake-build-debug"
+			"value" : "E:/BMS_fw/cmake-build-debug"
 		},
 		{
 			"name" : "BMS_V0_IS_TOP_LEVEL",
@@ -71,7 +35,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/crass/CLionProjects/BMS_V0"
+			"value" : "E:/BMS_fw"
 		},
 		{
 			"name" : "CMAKE_ADDR2LINE",
@@ -235,7 +199,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "c:/Users/crass/CLionProjects/BMS_V0/cmake-build-debug"
+			"value" : "e:/BMS_fw/cmake-build-debug"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -691,7 +655,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/crass/CLionProjects/BMS_V0/cmake-build-debug/CMakeFiles/pkgRedirects"
+			"value" : "E:/BMS_fw/cmake-build-debug/CMakeFiles/pkgRedirects"
 		},
 		{
 			"name" : "CMAKE_GENERATOR",
@@ -751,7 +715,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "C:/Users/crass/CLionProjects/BMS_V0"
+			"value" : "E:/BMS_fw"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",

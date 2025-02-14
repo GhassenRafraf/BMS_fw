@@ -39,7 +39,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "BMS_V0.elf::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-BMS_V0.elf-Debug-dde1aac65b5f5c559273.json",
+					"jsonFile" : "target-BMS_V0.elf-Debug-18b0df03bc4735fba1a4.json",
 					"name" : "BMS_V0.elf",
 					"projectIndex" : 0
 				}
@@ -49,8 +49,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "C:/Users/crass/CLionProjects/BMS_V0/cmake-build-debug",
-		"source" : "C:/Users/crass/CLionProjects/BMS_V0"
+		"build" : "E:/BMS_fw/cmake-build-debug",
+		"source" : "E:/BMS_fw"
 	},
 	"version" : 
 	{

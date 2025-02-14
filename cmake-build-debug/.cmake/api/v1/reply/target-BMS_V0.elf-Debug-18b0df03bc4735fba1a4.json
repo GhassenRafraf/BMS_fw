@@ -151,71 +151,71 @@
 			[
 				{
 					"backtrace" : 10,
-					"path" : "C:/Users/crass/CLionProjects/BMS_V0/Core/Inc"
+					"path" : "E:/BMS_fw/Core/Inc"
 				},
 				{
 					"backtrace" : 10,
-					"path" : "C:/Users/crass/CLionProjects/BMS_V0/Drivers/STM32F4xx_HAL_Driver/Inc"
+					"path" : "E:/BMS_fw/Drivers/STM32F4xx_HAL_Driver/Inc"
 				},
 				{
 					"backtrace" : 10,
-					"path" : "C:/Users/crass/CLionProjects/BMS_V0/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy"
+					"path" : "E:/BMS_fw/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy"
 				},
 				{
 					"backtrace" : 10,
-					"path" : "C:/Users/crass/CLionProjects/BMS_V0/Middlewares/Third_Party/FreeRTOS/Source/include"
+					"path" : "E:/BMS_fw/Middlewares/Third_Party/FreeRTOS/Source/include"
 				},
 				{
 					"backtrace" : 10,
-					"path" : "C:/Users/crass/CLionProjects/BMS_V0/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2"
+					"path" : "E:/BMS_fw/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2"
 				},
 				{
 					"backtrace" : 10,
-					"path" : "C:/Users/crass/CLionProjects/BMS_V0/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F"
+					"path" : "E:/BMS_fw/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F"
 				},
 				{
 					"backtrace" : 10,
-					"path" : "C:/Users/crass/CLionProjects/BMS_V0/Drivers/CMSIS/Device/ST/STM32F4xx/Include"
+					"path" : "E:/BMS_fw/Drivers/CMSIS/Device/ST/STM32F4xx/Include"
 				},
 				{
 					"backtrace" : 10,
-					"path" : "C:/Users/crass/CLionProjects/BMS_V0/Drivers/CMSIS/Include"
+					"path" : "E:/BMS_fw/Drivers/CMSIS/Include"
 				},
 				{
 					"backtrace" : 10,
-					"path" : "C:/Users/crass/CLionProjects/BMS_V0/App/Measurement"
+					"path" : "E:/BMS_fw/App/Measurement"
 				},
 				{
 					"backtrace" : 10,
-					"path" : "C:/Users/crass/CLionProjects/BMS_V0/App/SOC"
+					"path" : "E:/BMS_fw/App/SOC"
 				},
 				{
 					"backtrace" : 10,
-					"path" : "C:/Users/crass/CLionProjects/BMS_V0/App/SOH"
+					"path" : "E:/BMS_fw/App/SOH"
 				},
 				{
 					"backtrace" : 10,
-					"path" : "C:/Users/crass/CLionProjects/BMS_V0/App/Balancing"
+					"path" : "E:/BMS_fw/App/Balancing"
 				},
 				{
 					"backtrace" : 10,
-					"path" : "C:/Users/crass/CLionProjects/BMS_V0/App/CAN_comm"
+					"path" : "E:/BMS_fw/App/CAN_comm"
 				},
 				{
 					"backtrace" : 10,
-					"path" : "C:/Users/crass/CLionProjects/BMS_V0/App/StateMachine"
+					"path" : "E:/BMS_fw/App/StateMachine"
 				},
 				{
 					"backtrace" : 10,
-					"path" : "C:/Users/crass/CLionProjects/BMS_V0/App/Diagnostics"
+					"path" : "E:/BMS_fw/App/Diagnostics"
 				},
 				{
 					"backtrace" : 10,
-					"path" : "C:/Users/crass/CLionProjects/BMS_V0/App/Config"
+					"path" : "E:/BMS_fw/App/Config"
 				},
 				{
 					"backtrace" : 10,
-					"path" : "C:/Users/crass/CLionProjects/BMS_V0/Tasks"
+					"path" : "E:/BMS_fw/Tasks"
 				}
 			],
 			"language" : "CXX",
@@ -294,71 +294,71 @@
 			[
 				{
 					"backtrace" : 10,
-					"path" : "C:/Users/crass/CLionProjects/BMS_V0/Core/Inc"
+					"path" : "E:/BMS_fw/Core/Inc"
 				},
 				{
 					"backtrace" : 10,
-					"path" : "C:/Users/crass/CLionProjects/BMS_V0/Drivers/STM32F4xx_HAL_Driver/Inc"
+					"path" : "E:/BMS_fw/Drivers/STM32F4xx_HAL_Driver/Inc"
 				},
 				{
 					"backtrace" : 10,
-					"path" : "C:/Users/crass/CLionProjects/BMS_V0/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy"
+					"path" : "E:/BMS_fw/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy"
 				},
 				{
 					"backtrace" : 10,
-					"path" : "C:/Users/crass/CLionProjects/BMS_V0/Middlewares/Third_Party/FreeRTOS/Source/include"
+					"path" : "E:/BMS_fw/Middlewares/Third_Party/FreeRTOS/Source/include"
 				},
 				{
 					"backtrace" : 10,
-					"path" : "C:/Users/crass/CLionProjects/BMS_V0/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2"
+					"path" : "E:/BMS_fw/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2"
 				},
 				{
 					"backtrace" : 10,
-					"path" : "C:/Users/crass/CLionProjects/BMS_V0/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F"
+					"path" : "E:/BMS_fw/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F"
 				},
 				{
 					"backtrace" : 10,
-					"path" : "C:/Users/crass/CLionProjects/BMS_V0/Drivers/CMSIS/Device/ST/STM32F4xx/Include"
+					"path" : "E:/BMS_fw/Drivers/CMSIS/Device/ST/STM32F4xx/Include"
 				},
 				{
 					"backtrace" : 10,
-					"path" : "C:/Users/crass/CLionProjects/BMS_V0/Drivers/CMSIS/Include"
+					"path" : "E:/BMS_fw/Drivers/CMSIS/Include"
 				},
 				{
 					"backtrace" : 10,
-					"path" : "C:/Users/crass/CLionProjects/BMS_V0/App/Measurement"
+					"path" : "E:/BMS_fw/App/Measurement"
 				},
 				{
 					"backtrace" : 10,
-					"path" : "C:/Users/crass/CLionProjects/BMS_V0/App/SOC"
+					"path" : "E:/BMS_fw/App/SOC"
 				},
 				{
 					"backtrace" : 10,
-					"path" : "C:/Users/crass/CLionProjects/BMS_V0/App/SOH"
+					"path" : "E:/BMS_fw/App/SOH"
 				},
 				{
 					"backtrace" : 10,
-					"path" : "C:/Users/crass/CLionProjects/BMS_V0/App/Balancing"
+					"path" : "E:/BMS_fw/App/Balancing"
 				},
 				{
 					"backtrace" : 10,
-					"path" : "C:/Users/crass/CLionProjects/BMS_V0/App/CAN_comm"
+					"path" : "E:/BMS_fw/App/CAN_comm"
 				},
 				{
 					"backtrace" : 10,
-					"path" : "C:/Users/crass/CLionProjects/BMS_V0/App/StateMachine"
+					"path" : "E:/BMS_fw/App/StateMachine"
 				},
 				{
 					"backtrace" : 10,
-					"path" : "C:/Users/crass/CLionProjects/BMS_V0/App/Diagnostics"
+					"path" : "E:/BMS_fw/App/Diagnostics"
 				},
 				{
 					"backtrace" : 10,
-					"path" : "C:/Users/crass/CLionProjects/BMS_V0/App/Config"
+					"path" : "E:/BMS_fw/App/Config"
 				},
 				{
 					"backtrace" : 10,
-					"path" : "C:/Users/crass/CLionProjects/BMS_V0/Tasks"
+					"path" : "E:/BMS_fw/Tasks"
 				}
 			],
 			"language" : "C",
@@ -497,71 +497,71 @@
 			[
 				{
 					"backtrace" : 10,
-					"path" : "C:/Users/crass/CLionProjects/BMS_V0/Core/Inc"
+					"path" : "E:/BMS_fw/Core/Inc"
 				},
 				{
 					"backtrace" : 10,
-					"path" : "C:/Users/crass/CLionProjects/BMS_V0/Drivers/STM32F4xx_HAL_Driver/Inc"
+					"path" : "E:/BMS_fw/Drivers/STM32F4xx_HAL_Driver/Inc"
 				},
 				{
 					"backtrace" : 10,
-					"path" : "C:/Users/crass/CLionProjects/BMS_V0/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy"
+					"path" : "E:/BMS_fw/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy"
 				},
 				{
 					"backtrace" : 10,
-					"path" : "C:/Users/crass/CLionProjects/BMS_V0/Middlewares/Third_Party/FreeRTOS/Source/include"
+					"path" : "E:/BMS_fw/Middlewares/Third_Party/FreeRTOS/Source/include"
 				},
 				{
 					"backtrace" : 10,
-					"path" : "C:/Users/crass/CLionProjects/BMS_V0/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2"
+					"path" : "E:/BMS_fw/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2"
 				},
 				{
 					"backtrace" : 10,
-					"path" : "C:/Users/crass/CLionProjects/BMS_V0/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F"
+					"path" : "E:/BMS_fw/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F"
 				},
 				{
 					"backtrace" : 10,
-					"path" : "C:/Users/crass/CLionProjects/BMS_V0/Drivers/CMSIS/Device/ST/STM32F4xx/Include"
+					"path" : "E:/BMS_fw/Drivers/CMSIS/Device/ST/STM32F4xx/Include"
 				},
 				{
 					"backtrace" : 10,
-					"path" : "C:/Users/crass/CLionProjects/BMS_V0/Drivers/CMSIS/Include"
+					"path" : "E:/BMS_fw/Drivers/CMSIS/Include"
 				},
 				{
 					"backtrace" : 10,
-					"path" : "C:/Users/crass/CLionProjects/BMS_V0/App/Measurement"
+					"path" : "E:/BMS_fw/App/Measurement"
 				},
 				{
 					"backtrace" : 10,
-					"path" : "C:/Users/crass/CLionProjects/BMS_V0/App/SOC"
+					"path" : "E:/BMS_fw/App/SOC"
 				},
 				{
 					"backtrace" : 10,
-					"path" : "C:/Users/crass/CLionProjects/BMS_V0/App/SOH"
+					"path" : "E:/BMS_fw/App/SOH"
 				},
 				{
 					"backtrace" : 10,
-					"path" : "C:/Users/crass/CLionProjects/BMS_V0/App/Balancing"
+					"path" : "E:/BMS_fw/App/Balancing"
 				},
 				{
 					"backtrace" : 10,
-					"path" : "C:/Users/crass/CLionProjects/BMS_V0/App/CAN_comm"
+					"path" : "E:/BMS_fw/App/CAN_comm"
 				},
 				{
 					"backtrace" : 10,
-					"path" : "C:/Users/crass/CLionProjects/BMS_V0/App/StateMachine"
+					"path" : "E:/BMS_fw/App/StateMachine"
 				},
 				{
 					"backtrace" : 10,
-					"path" : "C:/Users/crass/CLionProjects/BMS_V0/App/Diagnostics"
+					"path" : "E:/BMS_fw/App/Diagnostics"
 				},
 				{
 					"backtrace" : 10,
-					"path" : "C:/Users/crass/CLionProjects/BMS_V0/App/Config"
+					"path" : "E:/BMS_fw/App/Config"
 				},
 				{
 					"backtrace" : 10,
-					"path" : "C:/Users/crass/CLionProjects/BMS_V0/Tasks"
+					"path" : "E:/BMS_fw/Tasks"
 				}
 			],
 			"language" : "ASM",
@@ -586,7 +586,7 @@
 			},
 			{
 				"backtrace" : 2,
-				"fragment" : "-Wl,-gc-sections,--print-memory-usage,-Map=C:/Users/crass/CLionProjects/BMS_V0/cmake-build-debug/BMS_V0.map",
+				"fragment" : "-Wl,-gc-sections,--print-memory-usage,-Map=E:/BMS_fw/cmake-build-debug/BMS_V0.map",
 				"role" : "flags"
 			},
 			{
@@ -611,7 +611,7 @@
 			},
 			{
 				"backtrace" : 4,
-				"fragment" : "C:/Users/crass/CLionProjects/BMS_V0/STM32F401RETX_FLASH.ld",
+				"fragment" : "E:/BMS_fw/STM32F401RETX_FLASH.ld",
 				"role" : "flags"
 			}
 		],

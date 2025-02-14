@@ -206,7 +206,7 @@ Discarded input sections
  .data          0x00000000        0x0 CMakeFiles/BMS_V0.elf.dir/App/Balancing/cell_balance.cpp.obj
  .bss           0x00000000        0x0 CMakeFiles/BMS_V0.elf.dir/App/Balancing/cell_balance.cpp.obj
  .debug_line    0x00000000        0x0 CMakeFiles/BMS_V0.elf.dir/App/Balancing/cell_balance.cpp.obj
- .debug_str     0x00000000      0x140 CMakeFiles/BMS_V0.elf.dir/App/Balancing/cell_balance.cpp.obj
+ .debug_str     0x00000000      0x10c CMakeFiles/BMS_V0.elf.dir/App/Balancing/cell_balance.cpp.obj
  .comment       0x00000000       0x46 CMakeFiles/BMS_V0.elf.dir/App/Balancing/cell_balance.cpp.obj
  .ARM.attributes
                 0x00000000       0x34 CMakeFiles/BMS_V0.elf.dir/App/Balancing/cell_balance.cpp.obj
@@ -214,7 +214,7 @@ Discarded input sections
  .data          0x00000000        0x0 CMakeFiles/BMS_V0.elf.dir/App/Can_comm/can_comm.c.obj
  .bss           0x00000000        0x0 CMakeFiles/BMS_V0.elf.dir/App/Can_comm/can_comm.c.obj
  .debug_line    0x00000000        0x0 CMakeFiles/BMS_V0.elf.dir/App/Can_comm/can_comm.c.obj
- .debug_str     0x00000000      0x142 CMakeFiles/BMS_V0.elf.dir/App/Can_comm/can_comm.c.obj
+ .debug_str     0x00000000      0x10e CMakeFiles/BMS_V0.elf.dir/App/Can_comm/can_comm.c.obj
  .comment       0x00000000       0x46 CMakeFiles/BMS_V0.elf.dir/App/Can_comm/can_comm.c.obj
  .ARM.attributes
                 0x00000000       0x34 CMakeFiles/BMS_V0.elf.dir/App/Can_comm/can_comm.c.obj
@@ -222,7 +222,7 @@ Discarded input sections
  .data          0x00000000        0x0 CMakeFiles/BMS_V0.elf.dir/App/Config/bms_config.c.obj
  .bss           0x00000000        0x0 CMakeFiles/BMS_V0.elf.dir/App/Config/bms_config.c.obj
  .debug_line    0x00000000        0x0 CMakeFiles/BMS_V0.elf.dir/App/Config/bms_config.c.obj
- .debug_str     0x00000000      0x142 CMakeFiles/BMS_V0.elf.dir/App/Config/bms_config.c.obj
+ .debug_str     0x00000000      0x10e CMakeFiles/BMS_V0.elf.dir/App/Config/bms_config.c.obj
  .comment       0x00000000       0x46 CMakeFiles/BMS_V0.elf.dir/App/Config/bms_config.c.obj
  .ARM.attributes
                 0x00000000       0x34 CMakeFiles/BMS_V0.elf.dir/App/Config/bms_config.c.obj
@@ -243,8 +243,8 @@ Discarded input sections
                 0x00000000       0x28 CMakeFiles/BMS_V0.elf.dir/App/Diagnostics/diag.c.obj
  .debug_rnglists
                 0x00000000       0x19 CMakeFiles/BMS_V0.elf.dir/App/Diagnostics/diag.c.obj
- .debug_line    0x00000000      0x2db CMakeFiles/BMS_V0.elf.dir/App/Diagnostics/diag.c.obj
- .debug_str     0x00000000      0x70d CMakeFiles/BMS_V0.elf.dir/App/Diagnostics/diag.c.obj
+ .debug_line    0x00000000      0x28d CMakeFiles/BMS_V0.elf.dir/App/Diagnostics/diag.c.obj
+ .debug_str     0x00000000      0x6d9 CMakeFiles/BMS_V0.elf.dir/App/Diagnostics/diag.c.obj
  .comment       0x00000000       0x46 CMakeFiles/BMS_V0.elf.dir/App/Diagnostics/diag.c.obj
  .debug_frame   0x00000000       0x40 CMakeFiles/BMS_V0.elf.dir/App/Diagnostics/diag.c.obj
  .ARM.attributes
@@ -274,8 +274,8 @@ Discarded input sections
                 0x00000000       0x40 CMakeFiles/BMS_V0.elf.dir/App/Measurement/batt_measure.c.obj
  .debug_rnglists
                 0x00000000       0x38 CMakeFiles/BMS_V0.elf.dir/App/Measurement/batt_measure.c.obj
- .debug_line    0x00000000      0x37d CMakeFiles/BMS_V0.elf.dir/App/Measurement/batt_measure.c.obj
- .debug_str     0x00000000      0x745 CMakeFiles/BMS_V0.elf.dir/App/Measurement/batt_measure.c.obj
+ .debug_line    0x00000000      0x32f CMakeFiles/BMS_V0.elf.dir/App/Measurement/batt_measure.c.obj
+ .debug_str     0x00000000      0x711 CMakeFiles/BMS_V0.elf.dir/App/Measurement/batt_measure.c.obj
  .comment       0x00000000       0x46 CMakeFiles/BMS_V0.elf.dir/App/Measurement/batt_measure.c.obj
  .debug_frame   0x00000000       0xb4 CMakeFiles/BMS_V0.elf.dir/App/Measurement/batt_measure.c.obj
  .ARM.attributes
@@ -283,42 +283,82 @@ Discarded input sections
  .text          0x00000000        0x0 CMakeFiles/BMS_V0.elf.dir/App/SOC/soc.c.obj
  .data          0x00000000        0x0 CMakeFiles/BMS_V0.elf.dir/App/SOC/soc.c.obj
  .bss           0x00000000        0x0 CMakeFiles/BMS_V0.elf.dir/App/SOC/soc.c.obj
- .debug_line    0x00000000        0x0 CMakeFiles/BMS_V0.elf.dir/App/SOC/soc.c.obj
- .debug_str     0x00000000      0x138 CMakeFiles/BMS_V0.elf.dir/App/SOC/soc.c.obj
+ .rodata.SOC_Init.str1.4
+                0x00000000       0x17 CMakeFiles/BMS_V0.elf.dir/App/SOC/soc.c.obj
+ .text.SOC_Init
+                0x00000000       0x44 CMakeFiles/BMS_V0.elf.dir/App/SOC/soc.c.obj
+ .rodata.SOC_Update.str1.4
+                0x00000000       0x14 CMakeFiles/BMS_V0.elf.dir/App/SOC/soc.c.obj
+ .text.SOC_Update
+                0x00000000       0x84 CMakeFiles/BMS_V0.elf.dir/App/SOC/soc.c.obj
+ .text.SOC_Get  0x00000000        0xc CMakeFiles/BMS_V0.elf.dir/App/SOC/soc.c.obj
+ .bss.accumulatedCharge
+                0x00000000        0x4 CMakeFiles/BMS_V0.elf.dir/App/SOC/soc.c.obj
+ .data.soc      0x00000000        0x4 CMakeFiles/BMS_V0.elf.dir/App/SOC/soc.c.obj
+ .debug_info    0x00000000      0x221 CMakeFiles/BMS_V0.elf.dir/App/SOC/soc.c.obj
+ .debug_abbrev  0x00000000      0x168 CMakeFiles/BMS_V0.elf.dir/App/SOC/soc.c.obj
+ .debug_loclists
+                0x00000000       0x72 CMakeFiles/BMS_V0.elf.dir/App/SOC/soc.c.obj
+ .debug_aranges
+                0x00000000       0x30 CMakeFiles/BMS_V0.elf.dir/App/SOC/soc.c.obj
+ .debug_rnglists
+                0x00000000       0x20 CMakeFiles/BMS_V0.elf.dir/App/SOC/soc.c.obj
+ .debug_line    0x00000000      0x193 CMakeFiles/BMS_V0.elf.dir/App/SOC/soc.c.obj
+ .debug_str     0x00000000      0x250 CMakeFiles/BMS_V0.elf.dir/App/SOC/soc.c.obj
  .comment       0x00000000       0x46 CMakeFiles/BMS_V0.elf.dir/App/SOC/soc.c.obj
+ .debug_frame   0x00000000       0x58 CMakeFiles/BMS_V0.elf.dir/App/SOC/soc.c.obj
  .ARM.attributes
                 0x00000000       0x34 CMakeFiles/BMS_V0.elf.dir/App/SOC/soc.c.obj
  .text          0x00000000        0x0 CMakeFiles/BMS_V0.elf.dir/App/SOH/soh.c.obj
  .data          0x00000000        0x0 CMakeFiles/BMS_V0.elf.dir/App/SOH/soh.c.obj
  .bss           0x00000000        0x0 CMakeFiles/BMS_V0.elf.dir/App/SOH/soh.c.obj
- .debug_line    0x00000000        0x0 CMakeFiles/BMS_V0.elf.dir/App/SOH/soh.c.obj
- .debug_str     0x00000000      0x138 CMakeFiles/BMS_V0.elf.dir/App/SOH/soh.c.obj
+ .rodata.SOH_Init.str1.4
+                0x00000000       0x17 CMakeFiles/BMS_V0.elf.dir/App/SOH/soh.c.obj
+ .text.SOH_Init
+                0x00000000       0x20 CMakeFiles/BMS_V0.elf.dir/App/SOH/soh.c.obj
+ .rodata.SOH_Update.str1.4
+                0x00000000       0x14 CMakeFiles/BMS_V0.elf.dir/App/SOH/soh.c.obj
+ .text.SOH_Update
+                0x00000000       0x68 CMakeFiles/BMS_V0.elf.dir/App/SOH/soh.c.obj
+ .text.SOH_Get  0x00000000        0xc CMakeFiles/BMS_V0.elf.dir/App/SOH/soh.c.obj
+ .data.soh      0x00000000        0x4 CMakeFiles/BMS_V0.elf.dir/App/SOH/soh.c.obj
+ .debug_info    0x00000000      0x1ff CMakeFiles/BMS_V0.elf.dir/App/SOH/soh.c.obj
+ .debug_abbrev  0x00000000      0x155 CMakeFiles/BMS_V0.elf.dir/App/SOH/soh.c.obj
+ .debug_loclists
+                0x00000000       0x78 CMakeFiles/BMS_V0.elf.dir/App/SOH/soh.c.obj
+ .debug_aranges
+                0x00000000       0x30 CMakeFiles/BMS_V0.elf.dir/App/SOH/soh.c.obj
+ .debug_rnglists
+                0x00000000       0x1f CMakeFiles/BMS_V0.elf.dir/App/SOH/soh.c.obj
+ .debug_line    0x00000000      0x172 CMakeFiles/BMS_V0.elf.dir/App/SOH/soh.c.obj
+ .debug_str     0x00000000      0x237 CMakeFiles/BMS_V0.elf.dir/App/SOH/soh.c.obj
  .comment       0x00000000       0x46 CMakeFiles/BMS_V0.elf.dir/App/SOH/soh.c.obj
+ .debug_frame   0x00000000       0x58 CMakeFiles/BMS_V0.elf.dir/App/SOH/soh.c.obj
  .ARM.attributes
                 0x00000000       0x34 CMakeFiles/BMS_V0.elf.dir/App/SOH/soh.c.obj
  .text          0x00000000        0x0 CMakeFiles/BMS_V0.elf.dir/App/StateMachine/bms_state.c.obj
  .data          0x00000000        0x0 CMakeFiles/BMS_V0.elf.dir/App/StateMachine/bms_state.c.obj
  .bss           0x00000000        0x0 CMakeFiles/BMS_V0.elf.dir/App/StateMachine/bms_state.c.obj
- .rodata.HandleInitState.str1.4
-                0x00000000       0x2b CMakeFiles/BMS_V0.elf.dir/App/StateMachine/bms_state.c.obj
- .text.HandleInitState
-                0x00000000       0x1c CMakeFiles/BMS_V0.elf.dir/App/StateMachine/bms_state.c.obj
  .rodata.HandleIdleState.str1.4
-                0x00000000       0x2d CMakeFiles/BMS_V0.elf.dir/App/StateMachine/bms_state.c.obj
+                0x00000000       0x25 CMakeFiles/BMS_V0.elf.dir/App/StateMachine/bms_state.c.obj
  .text.HandleIdleState
                 0x00000000       0x1c CMakeFiles/BMS_V0.elf.dir/App/StateMachine/bms_state.c.obj
- .rodata.HandleActiveState.str1.4
-                0x00000000       0x28 CMakeFiles/BMS_V0.elf.dir/App/StateMachine/bms_state.c.obj
- .text.HandleActiveState
-                0x00000000       0x10 CMakeFiles/BMS_V0.elf.dir/App/StateMachine/bms_state.c.obj
  .rodata.HandleFaultState.str1.4
-                0x00000000       0x30 CMakeFiles/BMS_V0.elf.dir/App/StateMachine/bms_state.c.obj
+                0x00000000       0x28 CMakeFiles/BMS_V0.elf.dir/App/StateMachine/bms_state.c.obj
  .text.HandleFaultState
                 0x00000000       0x1c CMakeFiles/BMS_V0.elf.dir/App/StateMachine/bms_state.c.obj
  .rodata.HandleShutdownState.str1.4
-                0x00000000       0x31 CMakeFiles/BMS_V0.elf.dir/App/StateMachine/bms_state.c.obj
+                0x00000000       0x29 CMakeFiles/BMS_V0.elf.dir/App/StateMachine/bms_state.c.obj
  .text.HandleShutdownState
                 0x00000000       0x10 CMakeFiles/BMS_V0.elf.dir/App/StateMachine/bms_state.c.obj
+ .rodata.HandleInitState.str1.4
+                0x00000000       0x21 CMakeFiles/BMS_V0.elf.dir/App/StateMachine/bms_state.c.obj
+ .text.HandleInitState
+                0x00000000       0x24 CMakeFiles/BMS_V0.elf.dir/App/StateMachine/bms_state.c.obj
+ .rodata.HandleActiveState.str1.4
+                0x00000000       0x99 CMakeFiles/BMS_V0.elf.dir/App/StateMachine/bms_state.c.obj
+ .text.HandleActiveState
+                0x00000000      0x100 CMakeFiles/BMS_V0.elf.dir/App/StateMachine/bms_state.c.obj
  .rodata.BMS_StateMachine_Init.str1.4
                 0x00000000       0x2a CMakeFiles/BMS_V0.elf.dir/App/StateMachine/bms_state.c.obj
  .text.BMS_StateMachine_Init
@@ -327,18 +367,24 @@ Discarded input sections
                 0x00000000       0x22 CMakeFiles/BMS_V0.elf.dir/App/StateMachine/bms_state.c.obj
  .text.BMS_StateMachine_Update
                 0x00000000       0x4c CMakeFiles/BMS_V0.elf.dir/App/StateMachine/bms_state.c.obj
+ .bss.cycleCount.0
+                0x00000000        0x4 CMakeFiles/BMS_V0.elf.dir/App/StateMachine/bms_state.c.obj
+ .bss.cycleCounted.1
+                0x00000000        0x1 CMakeFiles/BMS_V0.elf.dir/App/StateMachine/bms_state.c.obj
  .bss.currentState
                 0x00000000        0x1 CMakeFiles/BMS_V0.elf.dir/App/StateMachine/bms_state.c.obj
- .debug_info    0x00000000      0x26e CMakeFiles/BMS_V0.elf.dir/App/StateMachine/bms_state.c.obj
- .debug_abbrev  0x00000000      0x100 CMakeFiles/BMS_V0.elf.dir/App/StateMachine/bms_state.c.obj
+ .debug_info    0x00000000      0x4c7 CMakeFiles/BMS_V0.elf.dir/App/StateMachine/bms_state.c.obj
+ .debug_abbrev  0x00000000      0x195 CMakeFiles/BMS_V0.elf.dir/App/StateMachine/bms_state.c.obj
+ .debug_loclists
+                0x00000000       0x39 CMakeFiles/BMS_V0.elf.dir/App/StateMachine/bms_state.c.obj
  .debug_aranges
                 0x00000000       0x50 CMakeFiles/BMS_V0.elf.dir/App/StateMachine/bms_state.c.obj
  .debug_rnglists
-                0x00000000       0x37 CMakeFiles/BMS_V0.elf.dir/App/StateMachine/bms_state.c.obj
- .debug_line    0x00000000      0x18f CMakeFiles/BMS_V0.elf.dir/App/StateMachine/bms_state.c.obj
- .debug_str     0x00000000      0x309 CMakeFiles/BMS_V0.elf.dir/App/StateMachine/bms_state.c.obj
+                0x00000000       0x38 CMakeFiles/BMS_V0.elf.dir/App/StateMachine/bms_state.c.obj
+ .debug_line    0x00000000      0x36c CMakeFiles/BMS_V0.elf.dir/App/StateMachine/bms_state.c.obj
+ .debug_str     0x00000000      0x3cb CMakeFiles/BMS_V0.elf.dir/App/StateMachine/bms_state.c.obj
  .comment       0x00000000       0x46 CMakeFiles/BMS_V0.elf.dir/App/StateMachine/bms_state.c.obj
- .debug_frame   0x00000000       0xb8 CMakeFiles/BMS_V0.elf.dir/App/StateMachine/bms_state.c.obj
+ .debug_frame   0x00000000       0xd4 CMakeFiles/BMS_V0.elf.dir/App/StateMachine/bms_state.c.obj
  .ARM.attributes
                 0x00000000       0x34 CMakeFiles/BMS_V0.elf.dir/App/StateMachine/bms_state.c.obj
  .text          0x00000000        0x0 CMakeFiles/BMS_V0.elf.dir/Core/Src/freertos.c.obj
@@ -348,8 +394,8 @@ Discarded input sections
  .debug_abbrev  0x00000000       0x26 CMakeFiles/BMS_V0.elf.dir/Core/Src/freertos.c.obj
  .debug_aranges
                 0x00000000       0x18 CMakeFiles/BMS_V0.elf.dir/Core/Src/freertos.c.obj
- .debug_line    0x00000000       0x58 CMakeFiles/BMS_V0.elf.dir/Core/Src/freertos.c.obj
- .debug_str     0x00000000      0x1d3 CMakeFiles/BMS_V0.elf.dir/Core/Src/freertos.c.obj
+ .debug_line    0x00000000       0x3e CMakeFiles/BMS_V0.elf.dir/Core/Src/freertos.c.obj
+ .debug_str     0x00000000      0x19f CMakeFiles/BMS_V0.elf.dir/Core/Src/freertos.c.obj
  .comment       0x00000000       0x46 CMakeFiles/BMS_V0.elf.dir/Core/Src/freertos.c.obj
  .ARM.attributes
                 0x00000000       0x34 CMakeFiles/BMS_V0.elf.dir/Core/Src/freertos.c.obj
@@ -411,8 +457,8 @@ Discarded input sections
                 0x00000000       0xa8 CMakeFiles/BMS_V0.elf.dir/Core/Src/syscalls.c.obj
  .debug_rnglists
                 0x00000000       0x79 CMakeFiles/BMS_V0.elf.dir/Core/Src/syscalls.c.obj
- .debug_line    0x00000000      0x3e6 CMakeFiles/BMS_V0.elf.dir/Core/Src/syscalls.c.obj
- .debug_str     0x00000000      0x438 CMakeFiles/BMS_V0.elf.dir/Core/Src/syscalls.c.obj
+ .debug_line    0x00000000      0x3cc CMakeFiles/BMS_V0.elf.dir/Core/Src/syscalls.c.obj
+ .debug_str     0x00000000      0x404 CMakeFiles/BMS_V0.elf.dir/Core/Src/syscalls.c.obj
  .comment       0x00000000       0x46 CMakeFiles/BMS_V0.elf.dir/Core/Src/syscalls.c.obj
  .debug_frame   0x00000000      0x190 CMakeFiles/BMS_V0.elf.dir/Core/Src/syscalls.c.obj
  .ARM.attributes
@@ -569,8 +615,8 @@ Discarded input sections
                 0x00000000       0x90 CMakeFiles/BMS_V0.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c.obj
  .debug_rnglists
                 0x00000000       0x6c CMakeFiles/BMS_V0.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c.obj
- .debug_line    0x00000000      0xcf4 CMakeFiles/BMS_V0.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c.obj
- .debug_str     0x00000000      0x9f5 CMakeFiles/BMS_V0.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c.obj
+ .debug_line    0x00000000      0xca6 CMakeFiles/BMS_V0.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c.obj
+ .debug_str     0x00000000      0x9c1 CMakeFiles/BMS_V0.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c.obj
  .comment       0x00000000       0x46 CMakeFiles/BMS_V0.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c.obj
  .debug_frame   0x00000000      0x18c CMakeFiles/BMS_V0.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c.obj
  .ARM.attributes
@@ -674,8 +720,8 @@ Discarded input sections
                 0x00000000       0x90 CMakeFiles/BMS_V0.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj
  .debug_rnglists
                 0x00000000       0x6c CMakeFiles/BMS_V0.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj
- .debug_line    0x00000000      0xea9 CMakeFiles/BMS_V0.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj
- .debug_str     0x00000000      0x7b5 CMakeFiles/BMS_V0.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj
+ .debug_line    0x00000000      0xe5b CMakeFiles/BMS_V0.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj
+ .debug_str     0x00000000      0x781 CMakeFiles/BMS_V0.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj
  .comment       0x00000000       0x46 CMakeFiles/BMS_V0.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj
  .debug_frame   0x00000000      0x188 CMakeFiles/BMS_V0.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj
  .ARM.attributes
@@ -699,8 +745,8 @@ Discarded input sections
                 0x00000000       0x38 CMakeFiles/BMS_V0.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj
  .debug_rnglists
                 0x00000000       0x26 CMakeFiles/BMS_V0.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj
- .debug_line    0x00000000      0xa3b CMakeFiles/BMS_V0.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj
- .debug_str     0x00000000      0x588 CMakeFiles/BMS_V0.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj
+ .debug_line    0x00000000      0x9ed CMakeFiles/BMS_V0.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj
+ .debug_str     0x00000000      0x554 CMakeFiles/BMS_V0.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj
  .comment       0x00000000       0x46 CMakeFiles/BMS_V0.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj
  .debug_frame   0x00000000       0x74 CMakeFiles/BMS_V0.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj
  .ARM.attributes
@@ -734,8 +780,8 @@ Discarded input sections
                 0x00000000       0x60 CMakeFiles/BMS_V0.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj
  .debug_rnglists
                 0x00000000       0x46 CMakeFiles/BMS_V0.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj
- .debug_line    0x00000000      0x635 CMakeFiles/BMS_V0.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj
- .debug_str     0x00000000      0x420 CMakeFiles/BMS_V0.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj
+ .debug_line    0x00000000      0x5e7 CMakeFiles/BMS_V0.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj
+ .debug_str     0x00000000      0x3ec CMakeFiles/BMS_V0.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj
  .comment       0x00000000       0x46 CMakeFiles/BMS_V0.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj
  .debug_frame   0x00000000       0xd4 CMakeFiles/BMS_V0.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj
  .ARM.attributes
@@ -786,8 +832,8 @@ Discarded input sections
                 0x00000000       0xa0 CMakeFiles/BMS_V0.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj
  .debug_rnglists
                 0x00000000       0x75 CMakeFiles/BMS_V0.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj
- .debug_line    0x00000000      0x80b CMakeFiles/BMS_V0.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj
- .debug_str     0x00000000      0x589 CMakeFiles/BMS_V0.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj
+ .debug_line    0x00000000      0x7a3 CMakeFiles/BMS_V0.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj
+ .debug_str     0x00000000      0x555 CMakeFiles/BMS_V0.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj
  .comment       0x00000000       0x46 CMakeFiles/BMS_V0.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj
  .debug_frame   0x00000000      0x168 CMakeFiles/BMS_V0.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj
  .ARM.attributes
@@ -847,8 +893,8 @@ Discarded input sections
                 0x00000000       0xc8 CMakeFiles/BMS_V0.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj
  .debug_rnglists
                 0x00000000       0x93 CMakeFiles/BMS_V0.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj
- .debug_line    0x00000000      0x85b CMakeFiles/BMS_V0.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj
- .debug_str     0x00000000      0x6ac CMakeFiles/BMS_V0.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj
+ .debug_line    0x00000000      0x80d CMakeFiles/BMS_V0.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj
+ .debug_str     0x00000000      0x678 CMakeFiles/BMS_V0.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj
  .comment       0x00000000       0x46 CMakeFiles/BMS_V0.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj
  .debug_frame   0x00000000      0x1dc CMakeFiles/BMS_V0.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj
  .ARM.attributes
@@ -860,8 +906,8 @@ Discarded input sections
  .debug_abbrev  0x00000000       0x26 CMakeFiles/BMS_V0.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj
  .debug_aranges
                 0x00000000       0x18 CMakeFiles/BMS_V0.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj
- .debug_line    0x00000000       0x83 CMakeFiles/BMS_V0.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj
- .debug_str     0x00000000      0x1f9 CMakeFiles/BMS_V0.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj
+ .debug_line    0x00000000       0x69 CMakeFiles/BMS_V0.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj
+ .debug_str     0x00000000      0x1c5 CMakeFiles/BMS_V0.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj
  .comment       0x00000000       0x46 CMakeFiles/BMS_V0.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj
  .ARM.attributes
                 0x00000000       0x34 CMakeFiles/BMS_V0.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj
@@ -1058,8 +1104,8 @@ Discarded input sections
                 0x00000000       0x28 CMakeFiles/BMS_V0.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c.obj
  .debug_rnglists
                 0x00000000       0x19 CMakeFiles/BMS_V0.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c.obj
- .debug_line    0x00000000      0x2cc CMakeFiles/BMS_V0.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c.obj
- .debug_str     0x00000000      0x796 CMakeFiles/BMS_V0.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c.obj
+ .debug_line    0x00000000      0x27e CMakeFiles/BMS_V0.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c.obj
+ .debug_str     0x00000000      0x762 CMakeFiles/BMS_V0.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c.obj
  .comment       0x00000000       0x46 CMakeFiles/BMS_V0.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c.obj
  .debug_frame   0x00000000       0x30 CMakeFiles/BMS_V0.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c.obj
  .ARM.attributes
@@ -1107,8 +1153,8 @@ Discarded input sections
                 0x00000000       0xa0 CMakeFiles/BMS_V0.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj
  .debug_rnglists
                 0x00000000       0x74 CMakeFiles/BMS_V0.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj
- .debug_line    0x00000000      0x467 CMakeFiles/BMS_V0.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj
- .debug_str     0x00000000      0x592 CMakeFiles/BMS_V0.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj
+ .debug_line    0x00000000      0x3ff CMakeFiles/BMS_V0.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj
+ .debug_str     0x00000000      0x55e CMakeFiles/BMS_V0.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj
  .comment       0x00000000       0x46 CMakeFiles/BMS_V0.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj
  .debug_frame   0x00000000      0x138 CMakeFiles/BMS_V0.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj
  .ARM.attributes
@@ -1144,8 +1190,8 @@ Discarded input sections
                 0x00000000       0x68 CMakeFiles/BMS_V0.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj
  .debug_rnglists
                 0x00000000       0x4a CMakeFiles/BMS_V0.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj
- .debug_line    0x00000000      0x3f8 CMakeFiles/BMS_V0.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj
- .debug_str     0x00000000      0x4f5 CMakeFiles/BMS_V0.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj
+ .debug_line    0x00000000      0x3aa CMakeFiles/BMS_V0.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj
+ .debug_str     0x00000000      0x4c1 CMakeFiles/BMS_V0.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj
  .comment       0x00000000       0x46 CMakeFiles/BMS_V0.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj
  .debug_frame   0x00000000       0xd0 CMakeFiles/BMS_V0.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj
  .ARM.attributes
@@ -1190,8 +1236,8 @@ Discarded input sections
                 0x00000000       0x48 CMakeFiles/BMS_V0.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj
  .debug_rnglists
                 0x00000000       0x33 CMakeFiles/BMS_V0.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj
- .debug_line    0x00000000      0x664 CMakeFiles/BMS_V0.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj
- .debug_str     0x00000000      0x529 CMakeFiles/BMS_V0.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj
+ .debug_line    0x00000000      0x616 CMakeFiles/BMS_V0.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj
+ .debug_str     0x00000000      0x4f5 CMakeFiles/BMS_V0.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj
  .comment       0x00000000       0x46 CMakeFiles/BMS_V0.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj
  .debug_frame   0x00000000       0xa0 CMakeFiles/BMS_V0.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj
  .ARM.attributes
@@ -1738,7 +1784,7 @@ Discarded input sections
  .data          0x00000000        0x0 CMakeFiles/BMS_V0.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_adc.c.obj
  .bss           0x00000000        0x0 CMakeFiles/BMS_V0.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_adc.c.obj
  .debug_line    0x00000000        0x0 CMakeFiles/BMS_V0.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_adc.c.obj
- .debug_str     0x00000000      0x15e CMakeFiles/BMS_V0.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_adc.c.obj
+ .debug_str     0x00000000      0x12a CMakeFiles/BMS_V0.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_adc.c.obj
  .comment       0x00000000       0x46 CMakeFiles/BMS_V0.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_adc.c.obj
  .ARM.attributes
                 0x00000000       0x34 CMakeFiles/BMS_V0.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_adc.c.obj
@@ -1902,8 +1948,8 @@ Discarded input sections
  .debug_abbrev  0x00000000       0x26 CMakeFiles/BMS_V0.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/croutine.c.obj
  .debug_aranges
                 0x00000000       0x18 CMakeFiles/BMS_V0.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/croutine.c.obj
- .debug_line    0x00000000       0x77 CMakeFiles/BMS_V0.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/croutine.c.obj
- .debug_str     0x00000000      0x1f2 CMakeFiles/BMS_V0.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/croutine.c.obj
+ .debug_line    0x00000000       0x5d CMakeFiles/BMS_V0.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/croutine.c.obj
+ .debug_str     0x00000000      0x1be CMakeFiles/BMS_V0.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/croutine.c.obj
  .comment       0x00000000       0x46 CMakeFiles/BMS_V0.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/croutine.c.obj
  .ARM.attributes
                 0x00000000       0x34 CMakeFiles/BMS_V0.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/croutine.c.obj
@@ -1948,8 +1994,8 @@ Discarded input sections
                 0x00000000       0x90 CMakeFiles/BMS_V0.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.obj
  .debug_rnglists
                 0x00000000       0x85 CMakeFiles/BMS_V0.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.obj
- .debug_line    0x00000000      0xb1e CMakeFiles/BMS_V0.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.obj
- .debug_str     0x00000000      0x86a CMakeFiles/BMS_V0.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.obj
+ .debug_line    0x00000000      0xad0 CMakeFiles/BMS_V0.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.obj
+ .debug_str     0x00000000      0x836 CMakeFiles/BMS_V0.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.obj
  .comment       0x00000000       0x46 CMakeFiles/BMS_V0.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.obj
  .debug_frame   0x00000000      0x1b8 CMakeFiles/BMS_V0.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.obj
  .ARM.attributes
@@ -2091,8 +2137,8 @@ Discarded input sections
                 0x00000000       0xe0 CMakeFiles/BMS_V0.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c.obj
  .debug_rnglists
                 0x00000000       0xaa CMakeFiles/BMS_V0.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c.obj
- .debug_line    0x00000000     0x1537 CMakeFiles/BMS_V0.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c.obj
- .debug_str     0x00000000      0xa19 CMakeFiles/BMS_V0.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c.obj
+ .debug_line    0x00000000     0x14e9 CMakeFiles/BMS_V0.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c.obj
+ .debug_str     0x00000000      0x9e5 CMakeFiles/BMS_V0.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c.obj
  .comment       0x00000000       0x46 CMakeFiles/BMS_V0.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c.obj
  .debug_frame   0x00000000      0x380 CMakeFiles/BMS_V0.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c.obj
  .ARM.attributes
@@ -2213,7 +2259,7 @@ Discarded input sections
  .data          0x00000000        0x0 CMakeFiles/BMS_V0.elf.dir/Tasks/task_balance.c.obj
  .bss           0x00000000        0x0 CMakeFiles/BMS_V0.elf.dir/Tasks/task_balance.c.obj
  .debug_line    0x00000000        0x0 CMakeFiles/BMS_V0.elf.dir/Tasks/task_balance.c.obj
- .debug_str     0x00000000      0x13f CMakeFiles/BMS_V0.elf.dir/Tasks/task_balance.c.obj
+ .debug_str     0x00000000      0x10b CMakeFiles/BMS_V0.elf.dir/Tasks/task_balance.c.obj
  .comment       0x00000000       0x46 CMakeFiles/BMS_V0.elf.dir/Tasks/task_balance.c.obj
  .ARM.attributes
                 0x00000000       0x34 CMakeFiles/BMS_V0.elf.dir/Tasks/task_balance.c.obj
@@ -2221,7 +2267,7 @@ Discarded input sections
  .data          0x00000000        0x0 CMakeFiles/BMS_V0.elf.dir/Tasks/task_bms_main.c.obj
  .bss           0x00000000        0x0 CMakeFiles/BMS_V0.elf.dir/Tasks/task_bms_main.c.obj
  .debug_line    0x00000000        0x0 CMakeFiles/BMS_V0.elf.dir/Tasks/task_bms_main.c.obj
- .debug_str     0x00000000      0x140 CMakeFiles/BMS_V0.elf.dir/Tasks/task_bms_main.c.obj
+ .debug_str     0x00000000      0x10c CMakeFiles/BMS_V0.elf.dir/Tasks/task_bms_main.c.obj
  .comment       0x00000000       0x46 CMakeFiles/BMS_V0.elf.dir/Tasks/task_bms_main.c.obj
  .ARM.attributes
                 0x00000000       0x34 CMakeFiles/BMS_V0.elf.dir/Tasks/task_bms_main.c.obj
@@ -2229,7 +2275,7 @@ Discarded input sections
  .data          0x00000000        0x0 CMakeFiles/BMS_V0.elf.dir/Tasks/task_can_rx.c.obj
  .bss           0x00000000        0x0 CMakeFiles/BMS_V0.elf.dir/Tasks/task_can_rx.c.obj
  .debug_line    0x00000000        0x0 CMakeFiles/BMS_V0.elf.dir/Tasks/task_can_rx.c.obj
- .debug_str     0x00000000      0x13e CMakeFiles/BMS_V0.elf.dir/Tasks/task_can_rx.c.obj
+ .debug_str     0x00000000      0x10a CMakeFiles/BMS_V0.elf.dir/Tasks/task_can_rx.c.obj
  .comment       0x00000000       0x46 CMakeFiles/BMS_V0.elf.dir/Tasks/task_can_rx.c.obj
  .ARM.attributes
                 0x00000000       0x34 CMakeFiles/BMS_V0.elf.dir/Tasks/task_can_rx.c.obj
@@ -2237,7 +2283,7 @@ Discarded input sections
  .data          0x00000000        0x0 CMakeFiles/BMS_V0.elf.dir/Tasks/task_can_tx.c.obj
  .bss           0x00000000        0x0 CMakeFiles/BMS_V0.elf.dir/Tasks/task_can_tx.c.obj
  .debug_line    0x00000000        0x0 CMakeFiles/BMS_V0.elf.dir/Tasks/task_can_tx.c.obj
- .debug_str     0x00000000      0x13e CMakeFiles/BMS_V0.elf.dir/Tasks/task_can_tx.c.obj
+ .debug_str     0x00000000      0x10a CMakeFiles/BMS_V0.elf.dir/Tasks/task_can_tx.c.obj
  .comment       0x00000000       0x46 CMakeFiles/BMS_V0.elf.dir/Tasks/task_can_tx.c.obj
  .ARM.attributes
                 0x00000000       0x34 CMakeFiles/BMS_V0.elf.dir/Tasks/task_can_tx.c.obj
@@ -2245,7 +2291,7 @@ Discarded input sections
  .data          0x00000000        0x0 CMakeFiles/BMS_V0.elf.dir/Tasks/task_data_acq.c.obj
  .bss           0x00000000        0x0 CMakeFiles/BMS_V0.elf.dir/Tasks/task_data_acq.c.obj
  .debug_line    0x00000000        0x0 CMakeFiles/BMS_V0.elf.dir/Tasks/task_data_acq.c.obj
- .debug_str     0x00000000      0x140 CMakeFiles/BMS_V0.elf.dir/Tasks/task_data_acq.c.obj
+ .debug_str     0x00000000      0x10c CMakeFiles/BMS_V0.elf.dir/Tasks/task_data_acq.c.obj
  .comment       0x00000000       0x46 CMakeFiles/BMS_V0.elf.dir/Tasks/task_data_acq.c.obj
  .ARM.attributes
                 0x00000000       0x34 CMakeFiles/BMS_V0.elf.dir/Tasks/task_data_acq.c.obj
@@ -4420,84 +4466,84 @@ LOAD c:/progra~2/armgnu~1/125863~1.3re/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb
  .debug_rnglists
                 0x000013ff       0xb0 CMakeFiles/BMS_V0.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.obj
 
-.debug_line     0x00000000    0x20da6
- .debug_line    0x00000000      0x97f CMakeFiles/BMS_V0.elf.dir/Core/Src/main.c.obj
- .debug_line    0x0000097f      0x56c CMakeFiles/BMS_V0.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj
- .debug_line    0x00000eeb      0x317 CMakeFiles/BMS_V0.elf.dir/Core/Src/stm32f4xx_hal_timebase_tim.c.obj
- .debug_line    0x00001202      0x2c7 CMakeFiles/BMS_V0.elf.dir/Core/Src/stm32f4xx_it.c.obj
- .debug_line    0x000014c9      0x1b3 CMakeFiles/BMS_V0.elf.dir/Core/Src/sysmem.c.obj
- .debug_line    0x0000167c      0x29d CMakeFiles/BMS_V0.elf.dir/Core/Src/system_stm32f4xx.c.obj
- .debug_line    0x00001919       0x7a CMakeFiles/BMS_V0.elf.dir/Core/Startup/startup_stm32f401retx.s.obj
- .debug_line    0x00001993      0x5d9 CMakeFiles/BMS_V0.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj
- .debug_line    0x00001f6c     0x107b CMakeFiles/BMS_V0.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c.obj
- .debug_line    0x00002fe7      0x884 CMakeFiles/BMS_V0.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj
- .debug_line    0x0000386b      0x3f5 CMakeFiles/BMS_V0.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_crc.c.obj
- .debug_line    0x00003c60      0x6ee CMakeFiles/BMS_V0.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj
- .debug_line    0x0000434e     0x53e9 CMakeFiles/BMS_V0.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.obj
- .debug_line    0x00009737      0xb52 CMakeFiles/BMS_V0.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj
- .debug_line    0x0000a289     0x2540 CMakeFiles/BMS_V0.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c.obj
- .debug_line    0x0000c7c9     0x4992 CMakeFiles/BMS_V0.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
- .debug_line    0x0001115b     0x1d12 CMakeFiles/BMS_V0.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj
- .debug_line    0x00012e6d     0x464e CMakeFiles/BMS_V0.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj
- .debug_line    0x000174bb     0x2b4d CMakeFiles/BMS_V0.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.c.obj
- .debug_line    0x0001a008      0x3a3 CMakeFiles/BMS_V0.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.obj
- .debug_line    0x0001a3ab      0x719 CMakeFiles/BMS_V0.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.obj
- .debug_line    0x0001aac4      0x752 CMakeFiles/BMS_V0.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.obj
- .debug_line    0x0001b216     0x1fb0 CMakeFiles/BMS_V0.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.obj
- .debug_line    0x0001d1c6     0x2cbf CMakeFiles/BMS_V0.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj
- .debug_line    0x0001fe85      0xf21 CMakeFiles/BMS_V0.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.obj
+.debug_line     0x00000000    0x20586
+ .debug_line    0x00000000      0x8c9 CMakeFiles/BMS_V0.elf.dir/Core/Src/main.c.obj
+ .debug_line    0x000008c9      0x51e CMakeFiles/BMS_V0.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj
+ .debug_line    0x00000de7      0x2c9 CMakeFiles/BMS_V0.elf.dir/Core/Src/stm32f4xx_hal_timebase_tim.c.obj
+ .debug_line    0x000010b0      0x279 CMakeFiles/BMS_V0.elf.dir/Core/Src/stm32f4xx_it.c.obj
+ .debug_line    0x00001329      0x199 CMakeFiles/BMS_V0.elf.dir/Core/Src/sysmem.c.obj
+ .debug_line    0x000014c2      0x24f CMakeFiles/BMS_V0.elf.dir/Core/Src/system_stm32f4xx.c.obj
+ .debug_line    0x00001711       0x7a CMakeFiles/BMS_V0.elf.dir/Core/Startup/startup_stm32f401retx.s.obj
+ .debug_line    0x0000178b      0x571 CMakeFiles/BMS_V0.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj
+ .debug_line    0x00001cfc     0x102d CMakeFiles/BMS_V0.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c.obj
+ .debug_line    0x00002d29      0x81c CMakeFiles/BMS_V0.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj
+ .debug_line    0x00003545      0x3a7 CMakeFiles/BMS_V0.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_crc.c.obj
+ .debug_line    0x000038ec      0x6a0 CMakeFiles/BMS_V0.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj
+ .debug_line    0x00003f8c     0x539b CMakeFiles/BMS_V0.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.obj
+ .debug_line    0x00009327      0xb04 CMakeFiles/BMS_V0.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj
+ .debug_line    0x00009e2b     0x24f2 CMakeFiles/BMS_V0.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c.obj
+ .debug_line    0x0000c31d     0x4944 CMakeFiles/BMS_V0.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
+ .debug_line    0x00010c61     0x1cc4 CMakeFiles/BMS_V0.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj
+ .debug_line    0x00012925     0x45e6 CMakeFiles/BMS_V0.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj
+ .debug_line    0x00016f0b     0x2ab1 CMakeFiles/BMS_V0.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.c.obj
+ .debug_line    0x000199bc      0x355 CMakeFiles/BMS_V0.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.obj
+ .debug_line    0x00019d11      0x6cb CMakeFiles/BMS_V0.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.obj
+ .debug_line    0x0001a3dc      0x704 CMakeFiles/BMS_V0.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.obj
+ .debug_line    0x0001aae0     0x1f62 CMakeFiles/BMS_V0.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.obj
+ .debug_line    0x0001ca42     0x2c71 CMakeFiles/BMS_V0.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj
+ .debug_line    0x0001f6b3      0xed3 CMakeFiles/BMS_V0.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.obj
 
-.debug_str      0x00000000     0x8a85
- .debug_str     0x00000000     0x1d29 CMakeFiles/BMS_V0.elf.dir/Core/Src/main.c.obj
-                               0x1e9d (size before relaxing)
- .debug_str     0x00001d29      0x4c9 CMakeFiles/BMS_V0.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj
-                               0x1268 (size before relaxing)
- .debug_str     0x000021f2      0x12b CMakeFiles/BMS_V0.elf.dir/Core/Src/stm32f4xx_hal_timebase_tim.c.obj
-                                0xd4b (size before relaxing)
- .debug_str     0x0000231d       0xcd CMakeFiles/BMS_V0.elf.dir/Core/Src/stm32f4xx_it.c.obj
-                                0x79e (size before relaxing)
- .debug_str     0x000023ea       0x9e CMakeFiles/BMS_V0.elf.dir/Core/Src/sysmem.c.obj
-                                0x264 (size before relaxing)
- .debug_str     0x00002488       0xfc CMakeFiles/BMS_V0.elf.dir/Core/Src/system_stm32f4xx.c.obj
-                                0x3c6 (size before relaxing)
- .debug_str     0x00002584       0x65 CMakeFiles/BMS_V0.elf.dir/Core/Startup/startup_stm32f401retx.s.obj
-                                 0x9b (size before relaxing)
- .debug_str     0x000025e9      0x313 CMakeFiles/BMS_V0.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj
-                                0xa53 (size before relaxing)
- .debug_str     0x000028fc      0x2ec CMakeFiles/BMS_V0.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c.obj
-                                0x9a1 (size before relaxing)
- .debug_str     0x00002be8      0x452 CMakeFiles/BMS_V0.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj
-                                0xb09 (size before relaxing)
- .debug_str     0x0000303a       0xbe CMakeFiles/BMS_V0.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_crc.c.obj
-                                0x3e2 (size before relaxing)
- .debug_str     0x000030f8      0x136 CMakeFiles/BMS_V0.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj
-                                0x531 (size before relaxing)
- .debug_str     0x0000322e      0x8e1 CMakeFiles/BMS_V0.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.obj
-                               0x1074 (size before relaxing)
- .debug_str     0x00003b0f      0x16f CMakeFiles/BMS_V0.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj
-                                0x757 (size before relaxing)
- .debug_str     0x00003c7e      0x534 CMakeFiles/BMS_V0.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c.obj
-                                0xc39 (size before relaxing)
- .debug_str     0x000041b2      0xeec CMakeFiles/BMS_V0.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
-                               0x172e (size before relaxing)
- .debug_str     0x0000509e      0x57f CMakeFiles/BMS_V0.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj
-                                0xf4a (size before relaxing)
- .debug_str     0x0000561d      0x608 CMakeFiles/BMS_V0.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj
-                                0xd98 (size before relaxing)
- .debug_str     0x00005c25     0x136f CMakeFiles/BMS_V0.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.c.obj
-                               0x23ae (size before relaxing)
- .debug_str     0x00006f94      0x15a CMakeFiles/BMS_V0.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.obj
-                                0x341 (size before relaxing)
- .debug_str     0x000070ee      0x24e CMakeFiles/BMS_V0.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.obj
-                                0x4c1 (size before relaxing)
- .debug_str     0x0000733c      0x2ec CMakeFiles/BMS_V0.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.obj
-                                0x55a (size before relaxing)
- .debug_str     0x00007628      0x643 CMakeFiles/BMS_V0.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.obj
-                                0xd57 (size before relaxing)
- .debug_str     0x00007c6b      0x926 CMakeFiles/BMS_V0.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj
-                               0x1674 (size before relaxing)
- .debug_str     0x00008591      0x4f4 CMakeFiles/BMS_V0.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.obj
-                                0xf96 (size before relaxing)
+.debug_str      0x00000000     0x87e1
+ .debug_str     0x00000000     0x1cf5 CMakeFiles/BMS_V0.elf.dir/Core/Src/main.c.obj
+                               0x1e69 (size before relaxing)
+ .debug_str     0x00001cf5      0x4af CMakeFiles/BMS_V0.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj
+                               0x1234 (size before relaxing)
+ .debug_str     0x000021a4      0x111 CMakeFiles/BMS_V0.elf.dir/Core/Src/stm32f4xx_hal_timebase_tim.c.obj
+                                0xd17 (size before relaxing)
+ .debug_str     0x000022b5       0xb3 CMakeFiles/BMS_V0.elf.dir/Core/Src/stm32f4xx_it.c.obj
+                                0x76a (size before relaxing)
+ .debug_str     0x00002368       0x84 CMakeFiles/BMS_V0.elf.dir/Core/Src/sysmem.c.obj
+                                0x230 (size before relaxing)
+ .debug_str     0x000023ec       0xe2 CMakeFiles/BMS_V0.elf.dir/Core/Src/system_stm32f4xx.c.obj
+                                0x392 (size before relaxing)
+ .debug_str     0x000024ce       0x4b CMakeFiles/BMS_V0.elf.dir/Core/Startup/startup_stm32f401retx.s.obj
+                                 0x67 (size before relaxing)
+ .debug_str     0x00002519      0x2f9 CMakeFiles/BMS_V0.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj
+                                0xa1f (size before relaxing)
+ .debug_str     0x00002812      0x2d2 CMakeFiles/BMS_V0.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c.obj
+                                0x96d (size before relaxing)
+ .debug_str     0x00002ae4      0x438 CMakeFiles/BMS_V0.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj
+                                0xad5 (size before relaxing)
+ .debug_str     0x00002f1c       0xa4 CMakeFiles/BMS_V0.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_crc.c.obj
+                                0x3ae (size before relaxing)
+ .debug_str     0x00002fc0      0x11c CMakeFiles/BMS_V0.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj
+                                0x4fd (size before relaxing)
+ .debug_str     0x000030dc      0x8c7 CMakeFiles/BMS_V0.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.obj
+                               0x1040 (size before relaxing)
+ .debug_str     0x000039a3      0x155 CMakeFiles/BMS_V0.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj
+                                0x723 (size before relaxing)
+ .debug_str     0x00003af8      0x51a CMakeFiles/BMS_V0.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c.obj
+                                0xc05 (size before relaxing)
+ .debug_str     0x00004012      0xed2 CMakeFiles/BMS_V0.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
+                               0x16fa (size before relaxing)
+ .debug_str     0x00004ee4      0x565 CMakeFiles/BMS_V0.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj
+                                0xf16 (size before relaxing)
+ .debug_str     0x00005449      0x5ee CMakeFiles/BMS_V0.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj
+                                0xd64 (size before relaxing)
+ .debug_str     0x00005a37     0x1355 CMakeFiles/BMS_V0.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.c.obj
+                               0x237a (size before relaxing)
+ .debug_str     0x00006d8c      0x140 CMakeFiles/BMS_V0.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.obj
+                                0x30d (size before relaxing)
+ .debug_str     0x00006ecc      0x234 CMakeFiles/BMS_V0.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.obj
+                                0x48d (size before relaxing)
+ .debug_str     0x00007100      0x2d2 CMakeFiles/BMS_V0.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.obj
+                                0x526 (size before relaxing)
+ .debug_str     0x000073d2      0x629 CMakeFiles/BMS_V0.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.obj
+                                0xd23 (size before relaxing)
+ .debug_str     0x000079fb      0x90c CMakeFiles/BMS_V0.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj
+                               0x1640 (size before relaxing)
+ .debug_str     0x00008307      0x4da CMakeFiles/BMS_V0.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.obj
+                                0xf62 (size before relaxing)
 
 .comment        0x00000000       0x45
  .comment       0x00000000       0x45 CMakeFiles/BMS_V0.elf.dir/Core/Src/main.c.obj
@@ -4570,13 +4616,13 @@ LOAD c:/progra~2/armgnu~1/125863~1.3re/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb
  .debug_frame   0x00004f38       0x34 c:/progra~2/armgnu~1/125863~1.3re/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard\libg.a(libc_a-__atexit.o)
 
 .debug_line_str
-                0x00000000      0x237
+                0x00000000      0x203
  .debug_line_str
-                0x00000000       0x7f CMakeFiles/BMS_V0.elf.dir/Core/Startup/startup_stm32f401retx.s.obj
+                0x00000000       0x4b CMakeFiles/BMS_V0.elf.dir/Core/Startup/startup_stm32f401retx.s.obj
  .debug_line_str
-                0x0000007f       0xc9 c:/progra~2/armgnu~1/125863~1.3re/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard\libgcc.a(_aeabi_uldivmod.o)
+                0x0000004b       0xc9 c:/progra~2/armgnu~1/125863~1.3re/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard\libgcc.a(_aeabi_uldivmod.o)
  .debug_line_str
-                0x00000148        0xc c:/progra~2/armgnu~1/125863~1.3re/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard\libgcc.a(_dvmd_tls.o)
+                0x00000114        0xc c:/progra~2/armgnu~1/125863~1.3re/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard\libgcc.a(_dvmd_tls.o)
                                  0xcd (size before relaxing)
  .debug_line_str
-                0x00000154       0xe3 c:/progra~2/armgnu~1/125863~1.3re/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard\libg.a(libc_a-memcpy.o)
+                0x00000120       0xe3 c:/progra~2/armgnu~1/125863~1.3re/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard\libg.a(libc_a-memcpy.o)

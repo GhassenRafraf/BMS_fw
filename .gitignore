@@ -1,0 +1,14 @@
+# CMake build directory
+cmake-build-debug/
+
+# STM32CubeIDE project files
+.cproject
+.project
+.mxproject
+
+# STM32CubeMX project files
+BMS_V0.ioc
+
+# Ninja build system log
+cmake-build-debug/.ninja_log
+
