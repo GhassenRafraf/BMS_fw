@@ -1,18 +1,19 @@
 #include "bms_state.h"
-#include "diag.h"        // For logging with levels
-#include "bms_config.h"  // For configuration parameters
+#include "diag.h"
+#include "bms_config.h"
+#include "soc.h"
+#include "soh.h"
+#include "batt_measure.h"
+#include <stdio.h>
 
-// Static variable to hold the current state of the BMS
+// Variable to hold the current state of the BMS
 static BMS_State_t currentState;
 
 /**
- * @brief Initialize the state machine.
+ * @brief Initialize the BMS state machine.
  */
 void BMS_StateMachine_Init(void) {
-    // Begin with the INIT state
     currentState = BMS_STATE_INIT;
-
-    // Log the initialization with the INFO level
     diag_Log(DIAG_LEVEL_INFO, "BMS State Machine Initialized: INIT state");
 }
 
@@ -20,9 +21,11 @@ void BMS_StateMachine_Init(void) {
  * @brief Handle the INIT state logic.
  */
 static void HandleInitState(void) {
-    // TODO:  Perform necessary initialization here (e.g., calibrations, self-tests)
-    // After successful initialization, transition to the IDLE state
-    diag_Log(DIAG_LEVEL_INFO, "Handling INIT state: transitioning to IDLE");
+    // Initialize the SOC and SOH modules.
+    SOC_Init();
+    SOH_Init();
+    diag_Log(DIAG_LEVEL_INFO, "SOC and SOH modules initialized.");
+    // TODO: add initialization for other modules as needed.
     currentState = BMS_STATE_IDLE;
 }
 
@@ -30,38 +33,65 @@ static void HandleInitState(void) {
  * @brief Handle the IDLE state logic.
  */
 static void HandleIdleState(void) {
-    // In the IDLE state, the system may wait for conditions to start operation
-    // For example, waiting for user input, a trigger from another module, etc.
-    diag_Log(DIAG_LEVEL_INFO, "Handling IDLE state: transitioning to ACTIVE");
-    // For this example, immediately transition to ACTIVE.
+    diag_Log(DIAG_LEVEL_INFO, "IDLE state: transitioning to ACTIVE.");
     currentState = BMS_STATE_ACTIVE;
 }
 
 /**
  * @brief Handle the ACTIVE state logic.
+ *
+ * This function updates the SOC using a simple coulomb counting algorithm
+ * and checks the pack voltage to detect full discharge cycles for SOH update.
+ * It also monitors for out-of-range measurements to transition into FAULT state.
  */
 static void HandleActiveState(void) {
-    // In ACTIVE state, the BMS performs measurements, updates SOC/SOH, and manages balancing.
-    // You would call functions from the Measurement, SOC, SOH, and Balancing modules here.
-    // Also, check for any fault conditions.
-    diag_Log(DIAG_LEVEL_INFO, "Handling ACTIVE state: normal operation");
+    // Assume this function is called every 100ms.
+    const float deltaTime = 0.1f;
 
-    // Example fault check (placeholder):
-    // if (fault_detected) {
-    //     currentState = BMS_STATE_FAULT;
-    // }
+    // Get the measured current (in Amps).
+    float current = Get_Current();
+    // Update SOC based on the current measurement and delta time.
+    SOC_Update(current, deltaTime);
+    float packVoltage = Get_PackVoltage();
 
-    // In this example, we remain in ACTIVE state.
-    // You can add conditions to transition to SHUTDOWN if needed.
+    // Log the updated SOC and pack voltage.
+    char buf[128];
+    snprintf(buf, sizeof(buf), "ACTIVE state: SOC=%.2f%%, Pack Voltage=%.2fV", SOC_Get(), packVoltage);
+    diag_Log(DIAG_LEVEL_INFO, buf);
+
+    // Static variables to track full discharge cycles.
+    static uint32_t cycleCount = 0;
+    static uint8_t cycleCounted = 0;
+
+    // Define the minimum pack voltage threshold (for a 4-cell pack).
+    float packVoltageMinThreshold = NUM_CELLS * BMS_CELL_VOLTAGE_MIN;
+
+    // Check if the pack voltage indicates a full discharge cycle.
+    // A little hysteresis is added: when pack voltage is below threshold + 0.5V, and we haven't yet counted this cycle.
+    if ((packVoltage < (packVoltageMinThreshold + 0.5f)) && (!cycleCounted)) {
+        cycleCount++;
+        SOH_Update(cycleCount);
+        cycleCounted = 1;
+        snprintf(buf, sizeof(buf), "Cycle completed: cycleCount=%lu, new SOH=%.2f%%", cycleCount, SOH_Get());
+        diag_Log(DIAG_LEVEL_INFO, buf);
+    }
+        // Reset the cycle flag once the battery has recharged sufficiently.
+    else if (packVoltage > (packVoltageMinThreshold + 1.0f)) {
+        cycleCounted = 0;
+    }
+    // TODO: add more logic for fault conditions here as needed.
+    //fault condition: if the pack voltage is out of the expected range.
+    if ((packVoltage < packVoltageMinThreshold) || (packVoltage > NUM_CELLS * BMS_CELL_VOLTAGE_MAX)) {
+        diag_Log(DIAG_LEVEL_ERROR, "Pack voltage out of range! Transitioning to FAULT state.");
+        currentState = BMS_STATE_FAULT;
+    }
 }
 
 /**
  * @brief Handle the FAULT state logic.
  */
 static void HandleFaultState(void) {
-    // In FAULT state, take appropriate safety measures, log errors, and perhaps disable certain functionalities.
-    diag_Log(DIAG_LEVEL_ERROR, "Handling FAULT state: transitioning to SHUTDOWN");
-    // For this example, move directly to shutdown after detecting a fault.
+    diag_Log(DIAG_LEVEL_ERROR, "FAULT state: transitioning to SHUTDOWN.");
     currentState = BMS_STATE_SHUTDOWN;
 }
 
@@ -69,16 +99,17 @@ static void HandleFaultState(void) {
  * @brief Handle the SHUTDOWN state logic.
  */
 static void HandleShutdownState(void) {
-    // In SHUTDOWN, the system is safely powered down or is waiting for a reset.
-    diag_Log(DIAG_LEVEL_WARNING, "Handling SHUTDOWN state: system is shutting down");
-    // Typically, you would not leave this state until a manual reset occurs.
+    diag_Log(DIAG_LEVEL_WARNING, "SHUTDOWN state: system is shutting down.");
+    // Implement any shutdown procedures here.
 }
 
 /**
  * @brief Periodic update function for the BMS state machine.
+ *
+ * This function should be called regularly from the BMS main task.
  */
 void BMS_StateMachine_Update(void) {
-    switch(currentState) {
+    switch (currentState) {
         case BMS_STATE_INIT:
             HandleInitState();
             break;
@@ -95,7 +126,6 @@ void BMS_StateMachine_Update(void) {
             HandleShutdownState();
             break;
         default:
-            // If an unknown state is encountered, log an error and set to FAULT.
             diag_Log(DIAG_LEVEL_ERROR, "Error: Unknown state encountered!");
             currentState = BMS_STATE_FAULT;
             break;
